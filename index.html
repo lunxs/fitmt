@@ -57,14 +57,14 @@
 	var winWidth = document.documentElement.clientWidth;
 	window.onresize = function(){
 		winWidth = document.documentElement.clientWidth;
-		if(winWidth<980)
+		if(winWidth<1000)
 			$('.text-align1').addClass('replace-hidden');
 		else
 			$('.text-align1').removeClass('replace-hidden');
 	}
 	<!--start page header-->
 	$(window).scroll(function (){
-		if(winWidth>=980){
+		if(winWidth>=1000){
 			var pos = $(window).scrollTop();
 			if (pos > 256){
 				$('.text-align1').removeClass('replace-hidden');
@@ -245,9 +245,10 @@
 				<h3>Remember Us</h3>
 				<h4>聚风堂装饰</h4>
 				<p>全力以赴，努力工作，诚实守信，服务客户</p>
+				<p style=" color:#1C1C1C">本页面仅供学习交流</p>
 			</div>
-		<div class="clearfix"> </div>
-		<div class="copy">
+			<div class="clearfix"> </div>
+			<div class="copy">
 	            <p>&copy; 2016&nbsp;jufengt.cn&emsp;版权所有。</p>
 			</div>
 		</div>
