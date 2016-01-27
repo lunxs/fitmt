@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>聚风堂装饰</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link href="css/style1.css" rel="stylesheet" type="text/css"/>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+</script>
+<meta name="keywords" content="聚风堂装饰,装潢公司,美容院装修设计,别墅装修,装修设计_装饰设计" />
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+<!-- //end-smoth-scrolling -->
+</head>
+<body>
+<div class="container">
+<div class="nav-fixed text-align1 replace-hidden">
+	<div class="col-md-2">
+		<a href="index.html"><div class="box1-background"><img src="images/logo1.png" /></div></a>
+	</div>
+	<div class="col-md-2">
+		<a href="index.html"><div class="glyphicon glyphicon-home box1-background">首页</div></a>
+	</div>
+	<div class="col-md-2">
+		<a href="ing.html" target="_blank"><div class="glyphicon glyphicon-star box1-background">关于我们</div></a>
+	</div>
+	<div class="col-md-2">
+		<a href="ing.html" target="_blank"><div class="glyphicon glyphicon-thumbs-up box1-background">服务中心</div></a>
+	</div>
+	<div class="col-md-2">
+		<a href="ing.html" target="_blank"><div class="glyphicon glyphicon-picture box1-background">经典案例</div></a>
+	</div>
+	<div class="col-md-2">
+		<a href="ing.html" target="_blank"><div class="glyphicon glyphicon-envelope box1-background">联系我们</div></a>
+	</div>
+</div>
+</div>
+<!--获取当前页面大小-->
+<script type="text/javascript">
+	var winWidth = document.documentElement.clientWidth;
+	window.onresize = function(){
+		winWidth = document.documentElement.clientWidth;
+		if(winWidth<980)
+			$('.text-align1').addClass('replace-hidden');
+		else
+			$('.text-align1').removeClass('replace-hidden');
+	}
+	<!--start page header-->
+	$(window).scroll(function (){
+		if(winWidth>=980){
+			var pos = $(window).scrollTop();
+			if (pos > 256){
+				$('.text-align1').removeClass('replace-hidden');
+			}
+			else{
+				$('.text-align1').addClass('replace-hidden');
+			}
+		}
+	});
+	<!-- end page header -->
+</script>
+
+<!--header start here-->
+<div class="header">
+   <div class="container">
+        <div class="header-main">
+			 <div class="logo">
+			   <a href="index.html"><img src="images/logo.png" alt=""></a>
+			 </div>
+            <div class="top-nav">
+            	<span class="menu"> <img src="images/icon.png" alt=""/></span>
+				<ul class="nav nav-pills nav-justified res">
+					<li><a class="active no-bar" href="index.html"><i class="glyphicon glyphicon-home"> </i>网站首页</a></li>
+					<li ><a class="icon" href="ing.html" target="_blank"><i class="glyphicon glyphicon-star"> </i>关于我们</a></li>
+					<li><a href="ing.html" target="_blank"><i  class="glyphicon glyphicon-thumbs-up"> </i>服务中心</a></li>
+					<li><a href="ing.html" target="_blank"><i class="glyphicon glyphicon-picture"> </i>经典案例</a></li>
+					<li><a href="ing.html" target="_blank"><i class="glyphicon glyphicon-envelope"> </i>联系我们</a></li>
+				</ul>
+				<!-- script-for-menu -->
+							 <script>
+							   $( "span.menu" ).click(function() {
+								 $( "ul.res" ).slideToggle( 300, function() {
+								  });
+								 });
+							</script>
+			<!-- /script-for-menu -->
+			 </div>	
+     <div class="clearfix"> </div>
+   </div>	
+ </div>
+</div>
+<!--header end here-->
+<!--banner start here-->
+<div class="banner">
+  <div class="container">
+ 	<div class="banner-main">
+	  <section class="slider">
+           <div class="flexslider">
+             <ul class="slides">
+				   <li>
+					<p><b>企业宗旨：</b>以优秀的服务让人们住的更好，以优秀的业绩为社会创造财富</p>
+				   </li>
+				   <li>
+					<p><b>我们的目标：</b>做一流的装饰企业，做优秀的装饰人才</p>
+				  </li>
+				  <li>
+					<p><b>我们的承诺：</b>全力以赴，努力工作，诚实守信，服务客户</p>
+				</li>
+          </ul>
+        </div>
+      </section>
+	</div>
+</div>
+
+<!--FlexSlider-->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+</div>
+<!--banner end here-->
+<!--banner info start here-->
+<div class="bann-info">
+	<div class="container">
+		<div class="bann-info-main">
+			<div class="col-md-4 bann-info-grid">
+				<img src="images/b1.jpg" alt="" class="img-responsive">
+				<div class="ban-info-details">
+					<h3>华丽高贵</h3>
+					<p>Gorgeous and noble</p>
+				</div>
+			</div>
+			<div class="col-md-4 bann-info-grid">
+				<img src="images/b2.jpg" alt="" class="img-responsive">
+				<div class="ban-info-details">
+					<h3>时尚简约</h3>
+					<p>Fashion and contracted</p>
+				</div>
+			</div>
+			<div class="col-md-4 bann-info-grid">
+				<img src="images/b3.jpg" alt="" class="img-responsive">
+				<div class="ban-info-details">
+					<h3>清新素雅</h3>
+					<p>Fresh, simple and elegantair</p>
+				</div>
+			</div>
+		  <div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--banner info end here-->
+<!-- coll-online start here-->
+<div class="coff-online">
+	<div class="container">
+		<div class="coff-online-main">
+			 <h1>Welcome</h1>
+			 <h2>欢迎来到我们的线上参观</h2>
+			 <h4><b>工作作风：</b>宽厚、专业、创新、高效、诚实、发奋、平等、协作。</h4>
+			 <p>&emsp;&emsp;我不吃苦谁吃苦，客户幸福我才幸福“客户是上帝”，在我们诚心膜拜的时候，他的幸福快乐将深入我心，迁动我的情怀，让我为之甘脑涂地……文字的表白可以很轻松，实际的行动却艰难重重。所以，佛说“我不入地狱谁入地狱”。聚风堂装饰本着这一信念，在实际工作中，遵循“您的满意是我们永远的追求！”</p>
+		     <a href="ing.html" target="_blank"><span class="glyphicon glyphicon-list-alt read" aria-hidden="true"></span></a>
+		  <div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--coll-online end here-->
+<!--coll-bar start here-->
+<div class="coff-bar">
+		<div class="coff-bar-main">
+			<div class="col-md-6 coff-bar-left"></div>
+			<div class="col-md-6 coff-bar-right">
+				<h3>经典案例</h3>
+				<p>私人家居客厅装饰设计</p>
+			    <div class="cof-bar-btn">
+			    	<a href="ing.html" target="_blank" class="hvr-bounce-to-bottom">更多</a>
+			    </div>
+			</div>
+			<div class="clearfix"> </div>
+		 </div>
+</div>
+<!--coll-bar end here-->
+<!--culfy start here-->
+<div class="culfy">
+		<div class="culfy-main">
+			<div class="col-md-6 culfy-left">
+				<h4>16/10/2015</h4>
+				<h3>经典案例</h3>
+				<p>私人家居客厅装饰设计</p>
+			    <div class="cull-btn">
+			    	<a href="ing.html" target="_blank" class="hvr-bounce-to-bottom">更多</a>
+			    </div>
+			</div>
+			<div class="col-md-6 culfy-right">
+				
+			</div>
+			<div class="clearfix"> </div>
+		 </div>
+</div>
+<!--culfy end here-->
+<!--footer start here-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-main">
+		   <div class="col-md-4 footer-grid">
+				<h3>Information</h3>
+				<ul>
+					<li><a class="active no-bar" href="index.html">网站首页</a></li>
+					<li><a href="ing.html" target="_blank">关于我们</a></li>
+					<li><a href="ing.html" target="_blank">服务中心</a></li>
+					<li><a href="ing.html" target="_blank">经典案例</a></li>
+					<li><a href="ing.html" target="_blank">联系我们</a></li>
+				</ul>
+		   </div>
+			<div class="col-md-4 footer-grid">
+				<h3>Contact Us</h3>
+				<p><a href="ing.html" target="_blank">联系我们</a></p>
+				<p><a href="ing.html" target="_blank">地址</a></p>
+			</div>
+			<div class="col-md-4 footer-grid">
+				<h3>Remember Us</h3>
+				<h4>聚风堂装饰</h4>
+				<p>全力以赴，努力工作，诚实守信，服务客户</p>
+			</div>
+		<div class="clearfix"> </div>
+		<div class="copy">
+	            <p>&copy; 2016&nbsp;jufengt.cn&emsp;版权所有。</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--footer end here-->
+</body>
+</html>
