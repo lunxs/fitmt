@@ -3,8 +3,6 @@
 .nav-fixed{height:35px; margin-left:auto; margin-right:auto; position:fixed; top:0; opacity: 0.7; z-index:1000;}
 .text-align1{text-align:center; padding-top:0; margin-top:0;}
 .box1-background{background:#B4B4B4; width:96px; height:34px; line-height:34px; -moz-border-radius: 5px; -webkit-border-radius:5px; border-radius:5px;}
-
-.about{ background:#FAFAFA;}
 .about-btn1 {
   margin: 1em 0em 0em 0em;
 }
@@ -32,7 +30,7 @@
 	color:#666;
 }
 .contact{
-	background:#FFC;
+	background:#FFFFA4;
 }
 .contact-top h2{
 	font-size:1.8em;
@@ -52,4 +50,17 @@
 }
 .text-outline :hover{
 	outline-style:dotted;
+}
+
+.blog{ background:#F6F6F6;}
+
+.user-comment h4{
+	color:#03F;
+}
+.single-pic{
+	background:url(../../2.jpg) no-repeat;
+	width:825px;
+	height:507px;
+	text-align:center;
+	padding-left:15%;
 }
