@@ -1,20 +1,19 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>聚风堂装饰</title>
+<title>联系我们</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-1.11.0.min.js"></script>
 <!-- Custom Theme files -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 <link href="css/style1.css" rel="stylesheet" type="text/css"/>
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
 </script>
-<meta name="keywords" content="聚风堂装饰,装潢公司,美容院装修设计,别墅装修,装修设计_装饰设计" />
+<meta name="keywords" content="聚风堂装饰,装潢公司,美容院装修设计,别墅装修,装修设计_装饰设计">
 <!-- start-smoth-scrolling -->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
@@ -76,7 +75,6 @@
 	});
 	<!-- end page header -->
 </script>
-
 <!--header start-->
 <div class="header">
    <div class="container">
@@ -87,16 +85,17 @@
             <div class="top-nav">
             	<span class="menu"> <img src="images/icon.png" alt=""/></span>
 				<ul class="nav nav-pills nav-justified res">
-					<li><a class="active no-bar" href="index.html"><i class="glyphicon glyphicon-home"> </i>网站首页</a></li>
-					<li ><a class="icon" href="about.html"><i class="glyphicon glyphicon-star"> </i>关于我们</a></li>
+					<li><a class="no-bar" href="index.html"><i class="glyphicon glyphicon-home"> </i>网站首页</a></li>
+					<li ><a href="about.html"><i class="glyphicon glyphicon-star"> </i>关于我们</a></li>
 					<li><a href="ing.html" target="_blank"><i  class="glyphicon glyphicon-thumbs-up"> </i>服务中心</a></li>
 					<li><a href="ing.html" target="_blank"><i class="glyphicon glyphicon-picture"> </i>经典案例</a></li>
-					<li><a href="contact.html"><i class="glyphicon glyphicon-envelope"> </i>联系我们</a></li>
+					<li><a class="active" href="contact.html"><i class="glyphicon glyphicon-envelope"> </i>联系我们</a></li>
 				</ul>
 				<!-- script-for-menu -->
 							 <script>
 							   $( "span.menu" ).click(function() {
 								 $( "ul.res" ).slideToggle( 300, function() {
+								 // Animation complete.
 								  });
 								 });
 							</script>
@@ -107,121 +106,50 @@
  </div>
 </div>
 <!--header end-->
-<!--banner start-->
-<div class="banner">
-  <div class="container">
- 	<div class="banner-main">
-	  <section class="slider">
-           <div class="flexslider">
-             <ul class="slides">
-				   <li>
-					<p><b>企业宗旨：</b>以优秀的服务让人们住的更好，以优秀的业绩为社会创造财富</p>
-				   </li>
-				   <li>
-					<p><b>我们的目标：</b>做一流的装饰企业，做优秀的装饰人才</p>
-				  </li>
-				  <li>
-					<p><b>我们的承诺：</b>全力以赴，努力工作，诚实守信，服务客户</p>
-				</li>
-          </ul>
-        </div>
-      </section>
-	</div>
-</div>
-
-<!--FlexSlider-->
-	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-	<script defer src="js/jquery.flexslider.js"></script>
-	<script type="text/javascript">
-    $(window).load(function(){
-      $('.flexslider').flexslider({
-        animation: "slide",
-        start: function(slider){
-          $('body').removeClass('loading');
-        }
-      });
-    });
-  </script>
-
-</div>
-<!--banner end-->
-<!--banner info start-->
-<div class="bann-info">
+<!--contact start-->
+<div class="contact">
 	<div class="container">
-		<div class="bann-info-main">
-			<div class="col-md-4 bann-info-grid">
-				<img src="images/b1.jpg" alt="" class="img-responsive">
-				<div class="ban-info-details">
-					<h3>华丽高贵</h3>
-					<p>Gorgeous and noble</p>
-				</div>
+		<div class="contact-main">
+			<div class="contact-top">
+				<h3>联系我们</h3><br />
+				<marquee direction="left" behavior="alternate" scrollamount="3" scrolldelay="50" loop="-1">
+					<h2>&emsp;&emsp;您的满意&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</h2>
+					<h2>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;我们的追求！&emsp;&emsp;</h2>
+				</marquee><br />
+				<h4>需要我们为你做什么？</h4>
+				<p>为你服务是我们的荣幸，如果你有任何需要或者疑问欢迎随时联系我们…</p>
 			</div>
-			<div class="col-md-4 bann-info-grid">
-				<img src="images/b2.jpg" alt="" class="img-responsive">
-				<div class="ban-info-details">
-					<h3>时尚简约</h3>
-					<p>Fashion and contracted</p>
+				<div class="contact-text">
+					<div class="col-md-8 contact-left">
+						<input type="text" value="姓名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '姓名';}" />
+						<input type="text" value="邮箱" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '邮箱';}" />
+						<input type="text" value="电话" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '电话';}" />
+						<textarea value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '留言...';}">留言...</textarea>
+						<input type="submit" value="提交" onclick="submitmessage()">
+					</div>
+					<div class="col-md-4 contact-right">
+						<h3>联系信息：</h3>
+						<P><b>电话：</b>159 6711 6161</P>
+						<P><b>Q&nbsp;&nbsp;&nbsp;Q：</b>850305615</P>
+						<P><b>网址：</b>www.jufengt.cn</P>
+						<!--<div class="address">
+							<h5>Address</h5>
+							<p>this is a address message.</p>
+						</div>-->
+					</div>
+					<div class="clearfix"> </div>
 				</div>
-			</div>
-			<div class="col-md-4 bann-info-grid">
-				<img src="images/b3.jpg" alt="" class="img-responsive">
-				<div class="ban-info-details">
-					<h3>清新素雅</h3>
-					<p>Fresh, simple and elegantair</p>
-				</div>
-			</div>
-		  <div class="clearfix"> </div>
+			<div class="clearfix"> </div>
 		</div>
 	</div>
 </div>
-<!--banner info end-->
-<!-- coll-online start-->
-<div class="coff-online">
-	<div class="container">
-		<div class="coff-online-main">
-			 <h1>Welcome</h1>
-			 <h2>欢迎来到我们的线上参观</h2>
-			 <h4><b>工作作风：</b>宽厚、专业、创新、高效、诚实、发奋、平等、协作。</h4>
-			 <p>&emsp;&emsp;我不吃苦谁吃苦，客户幸福我才幸福“客户是上帝”，在我们诚心膜拜的时候，你的幸福快乐将深入我心，迁动我的情怀，让我为之甘脑涂地……文字的表白可以很轻松，实际的行动却艰难重重。所以，佛说“我不入地狱谁入地狱”。聚风堂装饰本着这一信念，在实际工作中，遵循“您的满意是我们永远的追求！”</p>
-		     <a href="ing.html" target="_blank"><span class="glyphicon glyphicon-list-alt read" aria-hidden="true"></span></a>
-		  <div class="clearfix"> </div>
-		</div>
-	</div>
-</div>
-<!--coll-online end-->
-<!--coll-bar start-->
-<div class="coff-bar">
-		<div class="coff-bar-main">
-			<div class="col-md-6 coff-bar-left"></div>
-			<div class="col-md-6 coff-bar-right">
-				<h3>经典案例</h3>
-				<p>私人家居客厅装饰设计</p>
-			    <div class="cof-bar-btn">
-			    	<a href="ing.html" target="_blank" class="hvr-bounce-to-bottom">更多</a>
-			    </div>
-			</div>
-			<div class="clearfix"> </div>
-		 </div>
-</div>
-<!--coll-bar end-->
-<!--culfy start-->
-<div class="culfy">
-		<div class="culfy-main">
-			<div class="col-md-6 culfy-left">
-				<h4>16/10/2015</h4>
-				<h3>经典案例</h3>
-				<p>私人家居客厅装饰设计</p>
-			    <div class="cull-btn">
-			    	<a href="ing.html" target="_blank" class="hvr-bounce-to-bottom">更多</a>
-			    </div>
-			</div>
-			<div class="col-md-6 culfy-right">
-				
-			</div>
-			<div class="clearfix"> </div>
-		 </div>
-</div>
-<!--culfy end-->
+<script>
+function submitmessage(){
+	var message = "抱歉！此功能暂未启用，其使用其他联系方式";
+	alert(message);
+}
+</script>
+<!--contact end-->
 <!--footer start-->
 <div class="footer">
 	<div class="container">
@@ -246,7 +174,6 @@
 				<h3>Remember Us</h3>
 				<h4>聚风堂装饰</h4>
 				<p>全力以赴，努力工作，诚实守信，服务客户</p>
-				<p style=" color:#1C1C1C">本页面仅供学习交流</p>
 			</div>
 			<div class="clearfix"> </div>
 			<div class="copy">
@@ -256,8 +183,5 @@
 	</div>
 </div>
 <!--footer end-->
-<div class="replace-none">
-<script src="http://s4.cnzz.com/z_stat.php?id=1257383143&web_id=1257383143" language="JavaScript"></script>
-</div>
 </body>
 </html>
