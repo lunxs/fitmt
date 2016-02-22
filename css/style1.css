@@ -64,3 +64,55 @@
 	text-align:center;
 	padding-left:15%;
 }
+/*--cases start--*/
+.bar1-left {
+   background: url(../images/lasa1.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 440px;
+  padding: 0px;
+}
+.culfy1-right{
+  background: url(../images/lasa2.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 440px;
+  padding: 0px;
+}
+@media(max-width:768px){
+.bar1-left {
+  min-height: 385px;
+}
+.culfy1-right {
+  min-height: 400px;
+}
+}
+@media(max-width:640px){
+.bar1-left {
+  min-height: 320px;
+}
+.culfy1-right {
+  min-height: 310px;
+}
+}
+@media(max-width:480px){
+.bar1-left {
+  min-height: 240px;
+}
+.culfy1-right {
+  min-height: 235px;
+}
+}
+@media(max-width:320px){
+.bar1-left {
+  min-height: 155px;
+}
+.culfy1-right {
+  min-height: 150px;
+}
+}
+/*--cases end--*/
