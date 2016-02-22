@@ -52,12 +52,25 @@
 	outline-style:dotted;
 }
 
-.blog{ background:#F6F6F6;}
-.blog-cate-color{background:#C8C8FF;}
-.blog-cate-color p{ font-size:1em;}
-.p1{ color:#06C;}
-.p2{color:#CFC;}
-.p3{color:#C06;}
+.blog{
+	background:#F6F6F6;
+}
+.blog-cate-color{
+	background:#C8C8FF;
+	padding:1em;
+}
+.blog-cate-color p{
+	font-size:1em;
+}
+.p1{
+	color:#06C;
+}
+.p2{
+	color:#CFC;
+}
+.p3{
+	color:#C06;
+}
 
 .user-comment h4{
 	color:#03F;
